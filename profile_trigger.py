@@ -49,7 +49,7 @@ def main(argv):
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--site',   help='URL for NightScout site', required=True)
-    parser.add_argument('--api_key', help='API key for your NightScou site', required=True)
+    parser.add_argument('--api_key', help='API key for your NightScout site', required=True)
     args = parser.parse_args()
 
     trigger(args.site, args.api_key)
